@@ -1,7 +1,0 @@
-# Use .NET 8 SDK to build the application
-FROM mcr.microsoft.com/dotnet/sdk:8.0 AS build
-# Set the working directory
-COPY /Publish/PaymentGateway.Api App
-WORKDIR /App
-# Run the application
-ENTRYPOINT ["dotnet", "PaymentGateway.Api.dll"]
