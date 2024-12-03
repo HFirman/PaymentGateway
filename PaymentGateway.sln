@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.12.35506.116
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PaymentGateway.Api", "PaymentGateway.API\PaymentGateway.Api.csproj", "{08CACB95-1261-4248-A6DD-42EE55E185FE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PaymentGateway.Services", "PaymentGateway.Service\PaymentGateway.Services.csproj", "{C990CAAF-B29A-4D7B-A3FC-0CFA4772E5B4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PaymentGateway.DataAccess", "PaymentGateway.DataAccess\PaymentGateway.DataAccess.csproj", "{0B88913C-F49C-4FAC-AA92-39610FDD0CD5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{08CACB95-1261-4248-A6DD-42EE55E185FE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{08CACB95-1261-4248-A6DD-42EE55E185FE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{08CACB95-1261-4248-A6DD-42EE55E185FE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{08CACB95-1261-4248-A6DD-42EE55E185FE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C990CAAF-B29A-4D7B-A3FC-0CFA4772E5B4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C990CAAF-B29A-4D7B-A3FC-0CFA4772E5B4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C990CAAF-B29A-4D7B-A3FC-0CFA4772E5B4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C990CAAF-B29A-4D7B-A3FC-0CFA4772E5B4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0B88913C-F49C-4FAC-AA92-39610FDD0CD5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0B88913C-F49C-4FAC-AA92-39610FDD0CD5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0B88913C-F49C-4FAC-AA92-39610FDD0CD5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0B88913C-F49C-4FAC-AA92-39610FDD0CD5}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
